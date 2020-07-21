@@ -1,29 +1,4 @@
-/* --------------------------
-:: Template Name: Colorlib App - App Landing Page 
-:: Template Author: Colorlib
-:: Template Author URI: https://colorlib.com/
-:: Description: Colorlib is a One Page based App Landing Template. It's very clean, creative & beautiful. It's super     responsive & ultra light.
-:: Tags: Colorlib, App Landing, Apps, Responsive App Landing, Bootstrap 4, Free Theme, Free HTML Template, HTML5 Template etc.
-:: Version: v1.0
-:: Created: 11/03/2017
--------------------------- */
 
-/* --- [Master Stylesheet] ----
-:: 1.0 Base CSS Start
-:: 2.0 Header Area CSS
-:: 3.0 Wellcome Area CSS
-:: 4.0 Special Area CSS
-:: 5.0 Features Area CSS
-:: 6.0 Video Area CSS
-:: 7.0 Cool Facts Area CSS
-:: 8.0 Screenshots Area CSS
-:: 9.0 Pricing Plan Area CSS
-:: 10.0 Testimonials Area CSS
-:: 11.0 CTA Area CSS Start
-:: 12.0 Team Area CSS Start
-:: 13.0 Contact Area CSS Start
-:: 14.0 Footer Area CSS Start
--------------------------- */
 
 @import url('https://fonts.googleapis.com/css?family=Cabin:400,500,700|Montserrat:400,500,700');
 @import 'css/bootstrap.min.css';
@@ -398,7 +373,7 @@ p {
 /* stcicky css */
 
 .header_area.sticky {
-    background-color: #fb397d;
+    background-color: #2d2c47;
     -webkit-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     height: 70px;
@@ -409,12 +384,10 @@ p {
 
 .header_area.sticky .menu_area .navbar-brand {
     font-size: 50px;
-    //color: blueviolet;
 }
 
 .header_area.sticky .menu_area #nav .nav-link {
     padding: 23px 15px;
-    //color: blueviolet;
 }
 .header_area.sticky .navbar {
     padding: 0;
@@ -426,7 +399,7 @@ p {
 -------------------------- */
 
 .wellcome_area {
-    background-image: url(img/bg-img/welcome-bg.png);
+    background-image: url(img/bg-img/back.jpg);
     height: 900px;
     position: relative;
     z-index: 1;
@@ -751,11 +724,11 @@ p {
     position: relative;
     z-index: auto;
     background: #a865e1;
-    background: -webkit-linear-gradient(to left, #7873ed, #a865e1);
-    background: -webkit-linear-gradient(right, #7873ed, #a865e1);
-    background: -webkit-gradient(linear, right top, left top, from(#7873ed), to(#a865e1));
-    background: -o-linear-gradient(right, #7873ed, #a865e1);
-    background: linear-gradient(to left, #7873ed, #a865e1);
+    background: -webkit-linear-gradient(to left, #0c0c0f, #27222c);
+    background: -webkit-linear-gradient(right, #0f0f11, #2c2533);
+    background: -webkit-gradient(linear, right top, left top, from(#141418), to(#161418));
+    background: -o-linear-gradient(right, #12121b, #18141b);
+    background: linear-gradient(to left, #16161a, #28232c);
     padding: 180px 0 80px 0;
     top: -100px;
 }
@@ -1036,12 +1009,12 @@ p {
 -------------------------- */
 
 .our-monthly-membership {
-    background: #a865e1;
-    background: -webkit-linear-gradient(to left, #7873ed, #a865e1);
-    background: -webkit-linear-gradient(right, #7873ed, #a865e1);
-    background: -webkit-gradient(linear, right top, left top, from(#7873ed), to(#a865e1));
-    background: -o-linear-gradient(right, #7873ed, #a865e1);
-    background: linear-gradient(to left, #7873ed, #a865e1);
+    background: #0b090c;
+    background: -webkit-linear-gradient(to left, #0b0b0e, #d2c2e2);
+    background: -webkit-linear-gradient(right, #0c0c0e, #dfcff0);
+    background: -webkit-gradient(linear, right top, left top, from(#141418), to(#b6a6c4));
+    background: -o-linear-gradient(right, #100f13, #a091af);
+    background: linear-gradient(to left, #571d6e, #739bf1);
 }
 
 .membership-description > h2 {
